@@ -18,3 +18,9 @@
 
 // Input: word1  = ["abc", "d", "defg"], word2 = ["abcddefg"]
 // Output: true
+
+const arrayStringsAreEqual = (word1, word2) => {
+  let result1 = word1.join("");
+  let result2 = word2.join("");
+  return true ? result1 === result2 : false;
+};
